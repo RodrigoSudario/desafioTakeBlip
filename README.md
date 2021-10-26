@@ -1,43 +1,47 @@
 <h1 align="center">Desafio Take Blip</h1>
 
-<p align="center">Neste projeto, foi proposto o consumo da API do github recebendo e ordenando e filtrando os dados pela linguagem e tempo de criação dos repositórios. Além disto, o deploy ocorreu via Heroku. Por fim, a aplicação seria consumida via chatBox da Take Blip. </p>
+<p align="center">Neste projeto, foi proposto o consumo da API do github recebendo, ordenando e filtrando os dados pela linguagem e tempo de criação dos repositórios. Além disto, o deploy ocorreu via Heroku. Por fim, a aplicação seria consumida via chatBox da Take Blip. </p>
 
 <h4 align="center"> 
 	ChatBox em Contrução.
 </h4>
 
-<p align="center">Comandos iniciais:</p>
+<h3>Comandos iniciais:</h3>
 
-  npm init
-  npm install express
-  npm install axios
-  npm install dotenv
-  npm install cors
+npm init<br>
+npm install express<br>
+npm install axios<br>
+npm install dotenv<br>
+npm install cors<br>
 
-<p align="center"> Comandos com o Heroku:</p>
-  heroku login
-  heroku create
-  git push heroku main
-  heroku open
+<h3>Comandos com o Heroku:</h3>
 
-<p align="center">Estrutura</p>
-./index:
+heroku login<br>
+heroku create<br>
+git push heroku main<br>
+heroku open<br>
+
+<h3>Estrutura</h3>
+
+Por ser uma aplicação simples não foi ultilizado nenhuma arquitetura.
+
+"./index:"<br>
   Criando a requisição com o método Get.
 
-./service
-- getRepos:
+"./service"<br>
+- getRepos:<br>
   Faz a requisição dos repositórios do usuário.
 
-- filterRepos:
+- filterRepos:<br>
   Faz a filtragem por linguagem C# e ordena em ordem crescente. 
 
-Neste artigo encontrei a solução para trabalhar com ISO8601:
+Neste forum encontrei a solução para trabalhar com ISO8601:
+<br>
 https://stackoverflow.com/questions/12192491/sort-array-by-iso-8601-date
 
-- getAvatar:
+- getAvatar:<br>
   Faz a requisição do usuário para retornar a url do avatar.
 
 
-Deploy no Heroku:
-
+<h3>Deploy no Heroku:</h3>
 https://gentle-plains-54049.herokuapp.com/
