@@ -1,0 +1,25 @@
+{
+  "name": "desafiotakeblip",
+  "version": "1.0.0",
+  "description": "npm init npm install express npm install axios criação dos arquivos index.js e service.js ./index:   Criando a requisição do método Get. ./service - getRepos:   Faz a requisição dos respositórios do usuário. - filterRepos:   Faz a filtragem por linguagem C# e ordena em ordem crescente.  Neste artigo encontrei a solução para trabalhar com ISO8601: https://stackoverflow.com/questions/12192491/sort-array-by-iso-8601-date - getAvatar:   Faz a requisição do usuário para retornar a url do avatar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoSudario/desafioTakeBlip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoSudario/desafioTakeBlip/issues"
+  },
+  "homepage": "https://github.com/RodrigoSudario/desafioTakeBlip#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
